@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+    <ImageView
+        android:id="@+id/logoImage"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/logo_horoscope"
+        android:layout_gravity="center"
+        android:contentDescription="@string/app_logo" />
+
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Horoscope"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp"/>
+
+    <EditText
+        android:id="@+id/input_month"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mois (1-12)"
+        android:inputType="number"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/input_day"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Jour (1-31)"
+        android:inputType="number"
+        android:layout_marginBottom="24dp"/>
+
+    <Button
+        android:id="@+id/btn_consulter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Consulter"/>
+</LinearLayout>

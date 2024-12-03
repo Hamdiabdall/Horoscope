@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_logo">Logo de l\'application</string>
+    <string name="app_name">Horoscope</string>
+</resources>

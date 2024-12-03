@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/horoscope_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Votre horoscope"
+        android:textSize="24sp"
+        android:layout_marginBottom="16dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/horoscope_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Description de l'horoscope"
+        android:textSize="16sp"
+        android:layout_marginBottom="24dp"/>
+
+    <Button
+        android:id="@+id/btn_retour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Retour"/>
+</LinearLayout>
